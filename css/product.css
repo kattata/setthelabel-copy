@@ -1,0 +1,322 @@
+p {
+    line-height: 1.5;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-family: "lemonmilk";
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+
+main h3 {
+    font-size: 16px;
+}
+
+main h4 {
+    margin: 10px 0 3px;
+}
+
+.product-flex {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* PRODUCT PHOTOS */
+
+.product-photos {
+    width: 520px;
+    margin: 20px 30px 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(3, 28vh);
+    grid-gap: 20px;
+    position: absolute;
+}
+
+.product-photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-img-big {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.product-img-small {
+    cursor: pointer;
+}
+
+.product-img-small:hover {
+    opacity: 0.8;
+}
+
+/* PRODUCT DETAILS */
+
+.product-details {
+    max-width: 500px;
+    width: 40%;
+}
+
+.collection-name {
+    margin-top: 110px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.collection-name::before {
+    content: "";
+    position: absolute;
+    background-color: #CDC9C8;
+    width: 5px;
+    height: 45px;
+    left: -10px;
+    top: 2px;
+}
+
+.set-name {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.price-and-size {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizeguide {
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sizeguide::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #CDC9C8;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transition: background-color .3s ease;
+}
+
+.sizeguide:hover::after {
+    background-color: #323439;
+}
+
+.size-and-amount {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#size, #amount{
+    width: 48%;
+    height: 30px;
+    border-color: #CDC9C8;
+    font-family: interstate, sans-serif;
+    font-size: 16px;
+}
+
+.add-and-fav {
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500px;
+}
+
+.add-btn {
+    background-color: #323439;
+    height: 100%;
+    width: 82%;
+    font-size: 16px;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #CDC9C8;
+}
+
+.fav-icon {
+    height: 20px;
+    margin-top: 3px;
+}
+
+.fav-btn {
+    background-color: #323439;
+    height: 100%;
+    width: 14%;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.fav-btn:hover {
+    background-color: #CDC9C8;
+}
+
+.product-details span {
+    font-weight: 600;
+}
+
+.care {
+    margin-bottom: 10px;
+}
+
+/* UGC */
+
+.ugc {
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+.ugc-grid {
+    display: grid;
+    grid-template-columns: 250px repeat(3, 1fr);
+    grid-template-rows: repeat(2, 190px);
+    grid-gap: 20px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.ugc img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ugc img:first-child {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.hashtag-explanation {
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.follow-ig {
+    background-color: #323439;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+}
+
+.follow-ig img {
+    height: 20px;
+    width: 20px;
+}
+
+.follow-ig div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.follow-ig div::before {
+    position: absolute;
+    content: "";
+    background-color: #CDC9C8;
+    width: 120%;
+    height: 1px;
+    top: -15px;
+    left: -10%;
+}
+
+/* YOU MAY ALSO LIKE */
+
+.suggestions {
+    margin: 50px auto;
+    width: 100%;
+}
+
+.suggestion-container {
+    display: flex;
+    width: 100%;
+}
+
+.suggestion:last-child {
+    margin-left: 20px;
+}
+
+.suggestion img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.img1:hover {
+    content: url(../resources/images/proposition1.2.jpg);
+}
+
+.img2:hover {
+    content: url(../resources/images/proposition4.2.jpg);
+}
+
+.name-and-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+
+main {
+    width: 90vw;
+    margin: auto;
+}
+
+.product-flex {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.product-photos {
+    width: 100%;
+    margin: 20px auto;
+    grid-template-rows: repeat(3, 24vh);
+    grid-gap: 10px;
+    position: static;
+}
+
+.product-details {
+    width: 100%;
+    margin: auto;
+}
+
+.collection-name {
+    margin-top: 30px;
+}
+
+.price-and-size {
+    margin-top: 40px;
+}
+
+.suggestion img {
+    width: 100%;
+    max-width: 200px;
+    height: 50vh;
+    object-fit: cover;
+}
+}
