@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "lemonmilk";
+  src: url(../resources/fonts/LEMONMILK-Regular.otf);
+}
+
+body {
+    font-family: interstate, sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.basket_container {
+    width: 90%;
+    background-color: #CDC9C8;
+    height: 650px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.steps {
+    margin: auto;
+}
+
+.checkout_steps {
+    width: 85%;
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+.bag_and_total {
+    display: flex;
+    flex-direction: row;
+}
+
+.basket {
+    height: 520px;
+    background-color: white;
+    width: 800px;
+    margin-top: 1.5%;
+    margin-left: 8%;
+    box-shadow: 10px 10px 8px 0px #888888;
+}
+
+.total_amount {
+    height: 520px;
+    background-color: white;
+    margin-top: 1.5%;
+    width: 400px;
+    margin-left: 3%;
+    box-shadow: 10px 10px 8px 0px #888888;
+}
+
+
+
+

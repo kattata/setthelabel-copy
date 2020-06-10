@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "lemonmilk";
+  src: url(../resources/fonts/LEMONMILK-Regular.otf);
+}
+
+body {
+    font-family: interstate, sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.basket_container {
+    width: 95%;
+    background-color: #CDC9C8;
+    height: 650px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.steps {
+    margin: auto;
+}
+
+.checkout_steps {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.white_box_container {
+    height: 480px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5%;
+    box-shadow: 10px 10px 8px 0px #888888;
+}
