@@ -32,10 +32,10 @@ body {
 }
 
 .checkout_steps {
-    width: 85%;
+    width: 80%;
     margin: auto;
-    margin-top: 1%;
-    margin-left: 8%;
+    margin-top: 2%;
+    margin-left: 10%;
 }
 
 .bag_and_total {
@@ -44,18 +44,18 @@ body {
 }
 
 .basket {
-    height: 520px;
+    height: 480px;
     background-color: white;
-    width: 800px;
-    margin-top: 1.5%;
-    margin-left: 8%;
+    width: 750px;
+    margin-top: 2%;
+    margin-left: 10%;
     box-shadow: 10px 10px 8px 0px #888888;
 }
 
 .total_amount {
-    height: 520px;
+    height: 480px;
     background-color: white;
-    margin-top: 1.5%;
+    margin-top: 2%;
     width: 400px;
     margin-left: 3%;
     box-shadow: 10px 10px 8px 0px #888888;
@@ -65,23 +65,24 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
 }
 
 .basket_title {
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 40px;
 }
 
 .ordered_picture {
-    width: 30%;
+    width: 32%;
 }
 
 .order_info {
     width: 35%;
+    margin-left: -40px;
 }
 
 .product_name {
@@ -99,7 +100,7 @@ body {
 }
 
 .ordered_pic {
-    width: 130%;
+    width: 100%;
 }
 
 .choose_amount {
@@ -107,6 +108,7 @@ body {
     border-color: #CDC9C8;
     font-family: interstate, sans-serif;
     font-size: 16px;
+    margin-right: 80px;
 }
 
 .payment_methods {
@@ -119,9 +121,53 @@ body {
     width: 20%;
 }
 
+.fav {
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    justify-content: space-between;
+}
 
+.trash {
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    justify-content: space-between;
+    padding-right: 2px;
+    margin-top: 10px;
+}
 
+.div_space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
 
+.bottom_line {
+    border-bottom: 2px solid #CDC9C8;
+    height: 10p;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.gotocheckout-btn {
+    background-color: #323439;
+    width: 10%;
+    height: 30px;
+    font-size: 14px;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    right: 16%;
+}
 
 
 
