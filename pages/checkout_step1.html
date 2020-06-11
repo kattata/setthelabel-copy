@@ -77,11 +77,53 @@
     <main>
 
     <section class="basket_container">
-        <img class="checkout_steps" src="../resources/images/checkout0.png" alt="checkout steps">
+        <img class="checkout_steps" src="../resources/images/checkout1.png" alt="checkout steps">
 
-        <div class="white_box_container">
+        <section class="white_box_container">
 
-        </div>
+            <div class="first_section">
+                <div class="shipping_info">
+                    <h3 class="checkout_title">SHIPPING ADRESS</h3>
+                    <div class="place_holders">
+                        <form>
+                          <label for="fname">Name or company</label><br>
+                          <input type="text" id="fname" name="fname" value="Eliska">
+                          <label for="lname">Last name</label><br>
+                          <input type="text" id="lname" name="lname" value="Padelek">
+                        <label for="NIP">Additional information/NIP</label><br>
+                          <input type="text" id="NIP" name="NIP" value="">
+                        </form>
+
+                        <form>
+                          <label for="fname">Street, house number, apartment number </label><br>
+                          <input type="text" id="fname" name="fname" value="Ravensbjerg 206, 32">
+                          <label for="lname">Zip code, city</label><br>
+                          <input type="text" id="lname" name="lname" value="Copenhagen  82-60">
+                        <label for="NIP">Country</label><br>
+                          <input type="text" id="NIP" name="NIP" value="Denmark">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="billing_adres">
+                    <h3 class="checkout_title">BILLING ADDRESS</h3>
+                    <p>Same as shipping</p>
+                    <img>
+                </div>
+            </div>
+
+            <div class="second_section">
+                <div class="save">
+                    <h4 class="save_shipping">SAVE SHIPPING ADDRESS</h4>
+                </div>
+                <div class="back_continue_btn">
+                    <div class="checkout_button">
+                        <a href="basket.html"><button class="goback-btn">GO BACK</button></a>
+                        <a href="checkout_step2.html"><button class="continue-btn">CONTINUE</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     </main>
 

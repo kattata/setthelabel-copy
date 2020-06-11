@@ -46,3 +46,105 @@ body {
     margin-top: 2%;
     box-shadow: 10px 10px 8px 0px #888888;
 }
+
+.first_section {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.checkout_title {
+    font: 20px "lemonmilk";
+    margin-bottom: 25px;
+}
+
+.shipping_info {
+    margin-left: 20px;
+}
+
+.place_holders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shipping_info {
+    width: 60%;
+}
+
+#fname, #lname, #NIP {
+    margin-left: 0px;
+    width: 120%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.billing_adres {
+    padding-left: 140px;
+}
+
+.second_section {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.save_shipping {
+    margin-left: 20px;
+}
+
+.goback-btn {
+background-color: #888888;
+width: 9%;
+height: 30px;
+font-size: 14px;
+font-family: interstate, sans-serif;
+font-weight: 500;
+color: white;
+transition: background-color .3s ease;
+cursor: pointer;
+position: absolute;
+bottom: 20%;
+right: 28%;
+}
+
+.continue-btn {
+background-color: #323439;
+width: 9%;
+height: 30px;
+font-size: 14px;
+font-family: interstate, sans-serif;
+font-weight: 500;
+color: white;
+transition: background-color .3s ease;
+cursor: pointer;
+position: absolute;
+bottom: 20%;
+right: 18%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
