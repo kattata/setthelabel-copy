@@ -97,6 +97,10 @@ body {
 
 .save_shipping {
     margin-left: 20px;
+    cursor: pointer;
+    font: 18px "interstate";
+    position: absolute;
+    bottom: 20%;
 }
 
 .goback-btn {
@@ -129,7 +133,22 @@ bottom: 20%;
 right: 18%;
 }
 
+.goback-btn:hover {
+    background-color: #CDC9C8;
+}
 
+.continue-btn:hover {
+    background-color: #CDC9C8;
+}
+
+.same {
+    display: flex;
+}
+
+.edit_icon {
+    margin-left: 10px;
+    width: 10%
+}
 
 
 
