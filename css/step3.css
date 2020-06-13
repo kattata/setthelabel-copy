@@ -46,3 +46,121 @@ body {
     margin-top: 2%;
     box-shadow: 10px 10px 8px 0px #888888;
 }
+
+
+.checkout_title {
+    font: 20px "lemonmilk";
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.sections {
+    width: 80%;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.order_info_summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 160%;
+    margin-left: 20px;
+    line-height: 1.4
+}
+
+.summary_pic {
+    width: 16%;
+}
+
+.div_space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.bottom_line {
+    border-bottom: 2px solid #CDC9C8;
+    height: 10p;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.goback-btn {
+background-color: #888888;
+width: 9%;
+height: 30px;
+font-size: 14px;
+font-family: interstate, sans-serif;
+font-weight: 500;
+color: white;
+transition: background-color .3s ease;
+cursor: pointer;
+position: absolute;
+bottom: 20%;
+right: 47%;
+}
+
+.goback-btn:hover {
+    background-color: #CDC9C8;
+}
+
+.continue-btn {
+background-color: #323439;
+width: 12%;
+height: 30px;
+font-size: 14px;
+font-family: interstate, sans-serif;
+font-weight: 500;
+color: white;
+transition: background-color .3s ease;
+cursor: pointer;
+position: absolute;
+bottom: 20%;
+right: 25%;
+}
+
+.continue-btn:hover {
+    background-color: #CDC9C8;
+}
+
+.bottom_line_left {
+    border-bottom: 2px solid black;
+    height: 10p;
+    width: 87%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.adress_summary {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.total_amount {
+    height: 400px;
+    background-color: white;
+    box-shadow: 10px 10px 8px 0px #888888;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
