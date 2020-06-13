@@ -25,3 +25,20 @@ function openMenu() {
 }
 
 burgerBtn.addEventListener('click', openMenu);
+
+//Login Pop Up
+const loginBtn = document.querySelector(".login-btn");
+const loginContainer = document.querySelector(".login-popup");
+const close = document.querySelector(".x");
+
+function showPopup() {
+    loginContainer.style.display = "flex";
+}
+
+loginBtn.addEventListener('click', showPopup);
+
+function closePopup() {
+    loginContainer.style.display = "none";
+}
+
+close.addEventListener('click', closePopup);

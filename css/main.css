@@ -53,6 +53,11 @@ header {
 }
 
 
+.sidenav {
+  display: flex;
+  flex-direction: row;
+}
+
 .sidenav-icon {
   height: 22px;
   margin: 2px 6px;
@@ -72,6 +77,7 @@ header {
   background-color: #CDC9C8;
   bottom: -3px;
   right: 0;
+  z-index: 10;
 }
 
 .search-white {
@@ -103,6 +109,133 @@ header {
   top: -14px;
   right: -15px;
 }
+
+.avatar-div {
+  position: relative;
+  }
+
+.account-container {
+  display: none;
+  position: absolute;
+  width: 200px;
+  background-color: white;
+  top: 0;
+  left: 34%;
+  transform: translateX(-66%);
+  text-align: center;
+  z-index: 2;
+  padding: 5px 0 10px;
+  margin-top: 31px;
+}
+
+.avatar-div:hover .account-container {
+  display: block;
+}
+
+.account-container:hover {
+  display: block;
+}
+
+.login-btn {
+  background-color: #323439;
+  font-size: 16px;
+  color: white;
+  padding: 10px 55px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.account-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.account-container a {
+  margin: 10px 0;
+  display: block;
+}
+
+.login-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  z-index: 100;
+  display: none;
+  justify-content: space-between;
+}
+
+
+.login-popup h2 {
+  font-family: "lemonmilk";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.login-popup button {
+  background-color: #323439;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login-popup p {
+  font-weight: 300;
+}
+
+.login {
+  width: 400px;
+  padding: 40px 20px 40px 40px;
+}
+
+#email, #password {
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #CDC9C8;
+}
+
+.login label {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.forgotten-password {
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.forgotten-password::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #CDC9C8;
+  bottom: -3px;
+  right: 0;
+}
+
+.signup {
+  width: 400px;
+  padding: 40px 40px 40px 20px;
+}
+
+.x {
+  font-size: 30px;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  cursor: pointer;
+}
+
 
 /* MAIN NAVIGATION */
 

@@ -1,0 +1,44 @@
+.main-body img {
+width: 38%;
+}
+
+.main-body h2 {
+    font-family: "lemonmilk";
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.main-body p {
+    font-weight: 300;
+}
+
+.total-amount {
+    margin-bottom: 25px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-order {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #323439;
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.see-order::after:first-child{
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #CDC9C8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

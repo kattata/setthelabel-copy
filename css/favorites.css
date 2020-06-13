@@ -1,0 +1,22 @@
+.main-body {
+    display: flex;
+    justify-content: space-between;
+}
+.main-body img {
+    margin: 0;
+}
+
+.pic-container {
+    width: 85%;
+}
+
+.pic-container img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.set-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords"
+        content="Set The Label, online store, Set The Label Store, fashion brand, fashion store, sets, clothes, Denmark">
+    <meta name="description" content="Set The Label online Store selling sets of clothes for women">
+    <meta name="subject" content="Exam Project Summer Semester 2020">
+    <meta name="author" content="Chiara Schafer, Katarzyna Laniecka, Weronika Kiljańczyk, Sylwia Misiak">
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="https://use.typekit.net/lex5vcp.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/account.css" />
+    <link rel="stylesheet" href="../css/favorites.css">
+    <link rel="preload" href="../css/main.css" as="style">
+    <title>Set The Label | Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-layer">
+
+
+            <!-- NEWSLETTER POPUP -->
+            <div id="popup1" class="overlay">
+                <div class="popup"><a class="close" href="#">&times;</a>
+                    <div id="dialog" class="window">
+
+                        <div class="box">
+                            <img src="resources/images/logo-white.png" class="logo_newsletter" alt="set the label logo">
+
+                            <div class="newsletter-title">
+                                <h2>SIGN UP FOR OUR NEWSLETTER AND JOIN THE COMMUNITY</h2>
+                            </div>
+
+                            <form action="/action_page.php">
+                                <div class="placeholders_container">
+                                    <input type="text" placeholder="Name" name="name" required>
+                                    <input type="text" placeholder="E-mail address" name="email" value=""
+                                        aria-label="E-mail placeholder">
+                                    <input type="submit" value="SUBSCRIBE NOW" class="subscribe">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="newsletter-btn" href="#popup1">Sign Up For Newsletter</a>
+            <!-- NEWSLETTER POPUP -->
+
+            <div class="login-popup inactive">
+                <div class="login">
+                    <h2>Log In</h2>
+                    <label for="email">Email address</label>
+                    <input type="text" id="email">
+                    <label for="password">Password</label>
+                    <input type="text" id="password">
+                    <button class="">Log In</button>
+                    <p class="forgotten-password">Forgotten your password?</p>
+                </div>
+                <div class="signup">
+                    <h2>Create An Account</h2>
+                    <p>Gain access to a wishlist, faster ordering process and become a member of the community.</p>
+                    <button>Sign Up</button>
+                </div>
+                <p class="x">&times</p>
+            </div>
+
+            <a href="../index.html"><img src="../resources/icons/logo.png" class="logo" alt="Logo" /></a>
+            <div class="sidenav">
+                <button class="search-icon">
+                    <img src="../resources/icons/search.svg" class="sidenav-icon search-black" alt="Search Icon" />
+                    <img src="../resources/icons/search-white.svg" class="sidenav-icon search-white"
+                        alt="Search Icon" />
+                </button>
+                <div class="avatar-div"><img src="../resources/icons/avatar.svg" class="sidenav-icon avatar-icon"
+                        alt="Avatar Icon" />
+                    <div class="account-container">
+                        <button class="login-btn">Log In</button>
+                        <p>or Sign Up</p>
+                        <a href="account.html">Account</a>
+                        <a href="favorites.html">Favorites</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Returns</a>
+                    </div>
+                </div>
+                <a href="pages/basket.html"><button class="bag-icon"><img src="../resources/icons/bag.svg"
+                            class="sidenav-icon " alt="Bag Icon" /></button></a>
+
+                <a href="#" id="burger-btn">
+                    <div class="burger" aria-hidden="true"></div>
+                </a>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="shop.html" class="nav-item">Shop</a>
+                <a href="community.html" class="nav-item">Community</a>
+                <a href="about.html" class="nav-item">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="menu">
+                <a href="account.html" class="active">Account</a>
+                <a href="favorites.html">Favorites</a>
+                <a href="#">Orders</a>
+                <a href="#">Returns</a>
+            </div>
+            <div class="main-body">
+                <div class="pic-container">
+                    <img src="../resources/images/proposition1.1.jpg" alt="Set 1">
+                    <div class="set-info">
+                        <p>Set 1</p>
+                        <p>750DKK</p>
+                    </div>
+                </div>
+                <div class="pic-container">
+                    <img src="../resources/images/proposition4.2.jpg" alt="Set 2">
+                    <div class="set-info">
+                        <p>Set 1</p>
+                        <p>750DKK</p>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
