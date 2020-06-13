@@ -68,7 +68,7 @@
             <div class="nav-container">
                 <a href="shop.html" class="nav-item">Shop</a>
                 <a href="community.html" class="nav-item">Community</a>
-                <a href="about.html" class="nav-item nav-item-active">About</a>
+                <a href="about.html" class="nav-item">About</a>
             </div>
         </nav>
     </header>
@@ -77,10 +77,63 @@
     <main>
 
     <section class="basket_container">
-        <img class="checkout_steps" src="../resources/images/checkout0.png" alt="checkout steps">
+        <img class="checkout_steps" src="../resources/images/checkout2_1.png" alt="checkout steps">
 
         <div class="white_box_container">
+            <div class="sections">
+                <div class="payment_methods">
+                    <h3 class="checkout_title">PAYMENT METHOD</h3>
 
+                    <div class="poptions">
+                        <div class="payoptions">
+                            <form>
+                              <input type="radio" id="payment" name="card" value="card">
+                              <label for="male">Debit/Credit Card</label><br>
+                              <input type="radio" id="payment" name="paypal" value="PayPal">
+                              <label for="female">PayPal</label><br>
+                              <input type="radio" id="payment" name="mobilepay" value="mobilepay">
+                              <label for="other">Mobile Pay</label><br>
+                              <input type="radio" id="payment" name="payatdelivery" value="payatdelivery">
+                              <label for="other">Pay at delivery (+25 DKK)</label>
+                            </form>
+                        </div>
+
+                        <div class="pay_icons">
+                            <img src="../resources/icons/visa_dark.png" class="pay_img"><br>
+                            <img src="../resources/icons/paypal_dark.png" class="pay_img"> <br>
+                            <img src="../resources/icons/visa_dark.png" class="pay_img"><br>
+                            <img src="../resources/icons/paypal_dark.png" class="pay_img">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="total_amount">
+                    <h3 class="checkout_title">TOTAL AMOUNT</h3>
+
+                     <div class="div_space">
+                        <p>SET NO. 1 </p>
+                        <p>750 DKK </p>
+                    </div>
+
+                    <div class="div_space">
+                        <p>Delivery </p>
+                        <p>50 DKK </p>
+                    </div>
+
+                    <div class="bottom_line"></div>
+
+                    <div class="div_space">
+                        <p><b>Total amount</b> </p>
+                        <p><b>800 DKK</b></p>
+                    </div>
+
+                     <div class="checkout_button">
+                        <a href="checkout_step1.html"><button class="goback-btn">GO BACK</button></a>
+                        <a href="checkout_step3.html"><button class="continue-btn">CONTINUE</button></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     </main>
