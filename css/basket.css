@@ -111,7 +111,7 @@ body {
     margin-right: 80px;
 }
 
-.payment_methods {
+.summary {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
