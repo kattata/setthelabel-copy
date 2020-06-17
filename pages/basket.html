@@ -20,14 +20,14 @@
     <header>
         <div class="top-layer">
 
-            <!--NEWSLETTER POP UP ON CLOCK -->
+
+            <!-- NEWSLETTER POPUP -->
             <div id="popup1" class="overlay">
-                <div class="popup"> <a class="close" href="#">&times;</a>
+                <div class="popup"><a class="close" href="#">&times;</a>
                     <div id="dialog" class="window">
 
                         <div class="box">
-                            <img src="../resources/images/logo-white.png" class="logo_newsletter"
-                                alt="Set The Label logo">
+                            <img src="resources/images/logo-white.png" class="logo_newsletter" alt="set the label logo">
 
                             <div class="newsletter-title">
                                 <h2>SIGN UP FOR OUR NEWSLETTER AND JOIN THE COMMUNITY</h2>
@@ -46,19 +46,47 @@
                 </div>
             </div>
             <a class="newsletter-btn" href="#popup1">Sign Up For Newsletter</a>
-            <!--NEWSLETTER POP UP ON CLOCK -->
+            <!-- NEWSLETTER POPUP -->
 
+            <div class="login-popup inactive">
+                <div class="login">
+                    <h2>Log In</h2>
+                    <label for="email">Email address</label>
+                    <input type="text" id="email">
+                    <label for="password">Password</label>
+                    <input type="text" id="password">
+                    <button class="">Log In</button>
+                    <p class="forgotten-password">Forgotten your password?</p>
+                </div>
+                <div class="signup">
+                    <h2>Create An Account</h2>
+                    <p>Gain access to a wishlist, faster ordering process and become a member of the community.</p>
+                    <button>Sign Up</button>
+                </div>
+                <p class="x">&times</p>
+            </div>
 
             <a href="../index.html"><img src="../resources/icons/logo.png" class="logo" alt="Logo" /></a>
             <div class="sidenav">
-                <button class="search-icon"><img src="../resources/icons/search.svg" class="sidenav-icon search-black"
-                        alt="Search Icon" />
+                <button class="search-icon">
+                    <img src="../resources/icons/search.svg" class="sidenav-icon search-black" alt="Search Icon" />
                     <img src="../resources/icons/search-white.svg" class="sidenav-icon search-white"
                         alt="Search Icon" />
                 </button>
-                <img src="../resources/icons/avatar.svg" class="sidenav-icon avatar-icon" alt="Avatar Icon" />
-                <button class="bag-icon"><img src="../resources/icons/bag.svg" class="sidenav-icon "
-                        alt="Bag Icon" /></button>
+                <div class="avatar-div"><img src="../resources/icons/avatar.svg" class="sidenav-icon avatar-icon"
+                        alt="Avatar Icon" />
+                    <div class="account-container">
+                        <button class="login-btn">Log In</button>
+                        <p>or Sign Up</p>
+                        <a href="account.html">Account</a>
+                        <a href="favorites.html">Favorites</a>
+                        <a href="orders.html">Orders</a>
+                        <a href="#">Returns</a>
+                    </div>
+                </div>
+                <a href="pages/basket.html"><button class="bag-icon"><img src="../resources/icons/bag.svg"
+                            class="sidenav-icon " alt="Bag Icon" /></button></a>
+
                 <a href="#" id="burger-btn">
                     <div class="burger" aria-hidden="true"></div>
                 </a>
@@ -76,89 +104,90 @@
 
     <main>
 
-    <section class="basket_container">
-        <img class="checkout_steps" src="../resources/images/checkout0.png" alt="checkout steps">
+        <section class="basket_container">
+            <img class="checkout_steps" src="../resources/images/checkout0.png" alt="checkout steps">
 
-        <div class="bag_and_total">
-            <div class="basket">
-                <h3 class="basket_title">BAG (1 Item)</h3>
+            <div class="bag_and_total">
+                <div class="basket">
+                    <h3 class="basket_title">BAG (1 Item)</h3>
 
-                <div class="order">
-                    <div class="ordered_picture">
-                        <img class="ordered_pic" src="../resources/images/2.2.jpg" alt="product_pic">
-                    </div>
-
-                    <div class="order_info">
-                        <p class="product_name">You Are Beautiful</p>
-                        <p class="product_name">SET NO.3</p>
-                        <p class="product_info">Size: Medium <br>Color: Faded pink <br>Expected delivery time: <br> Monday 15.06 - Friday 20.06 <br><br> Payement methods</p>
-
-                        <div class="payment_methods">
-                            <img src="../resources/icons/mastercard.png" class="basket_payment">
-                            <img src="../resources/icons/mastercard.png" class="basket_payment">
-                            <img src="../resources/icons/mastercard.png" class="basket_payment">
-                            <img src="../resources/icons/mastercard.png" class="basket_payment">
+                    <div class="order">
+                        <div class="ordered_picture">
+                            <img class="ordered_pic" src="../resources/images/2.2.jpg" alt="product_pic">
                         </div>
 
-                        <div class="fav_and_remove">
-                            <div class="fav">
-                                <p>Move to favourites</p>
-                                <img src="../resources/icons/black_heart.png" class="checkout_icon">
+                        <div class="order_info">
+                            <p class="product_name">You Are Beautiful</p>
+                            <p class="product_name">SET NO.3</p>
+                            <p class="product_info">Size: Medium <br>Color: Faded pink <br>Expected delivery time: <br>
+                                Monday 15.06 - Friday 20.06 <br><br> Payement methods</p>
+
+                            <div class="payment_methods">
+                                <img src="../resources/icons/mastercard.png" class="basket_payment">
+                                <img src="../resources/icons/mastercard.png" class="basket_payment">
+                                <img src="../resources/icons/mastercard.png" class="basket_payment">
+                                <img src="../resources/icons/mastercard.png" class="basket_payment">
                             </div>
-                            <div class="trash">
-                                <p>Remove from bag</p>
-                                <img src="../resources/icons/trash_black.png" class="checkout_icon">
+
+                            <div class="fav_and_remove">
+                                <div class="fav">
+                                    <p>Move to favourites</p>
+                                    <img src="../resources/icons/black_heart.png" class="checkout_icon">
+                                </div>
+                                <div class="trash">
+                                    <p>Remove from bag</p>
+                                    <img src="../resources/icons/trash_black.png" class="checkout_icon">
+                                </div>
                             </div>
+
+
                         </div>
 
-
+                        <div class="choose_amount">
+                            <select id="amount">
+                                <option value="amount">Amount</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
                     </div>
 
-                    <div class="choose_amount">
-                        <select id="amount">
-                        <option value="amount">Amount</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        </select>
+                </div>
+
+                <div class="total_amount">
+                    <h3 class="basket_title">TOTAL AMOUNT</h3>
+
+                    <div class="div_space">
+                        <p>SET NO. 1 </p>
+                        <p>750 DKK </p>
                     </div>
-                </div>
 
+                    <div class="div_space">
+                        <p>Delivery </p>
+                        <p>50 DKK </p>
+                    </div>
+
+                    <div class="bottom_line"></div>
+
+                    <div class="div_space">
+                        <p><b>Total amount</b> </p>
+                        <p><b>800 DKK</b></p>
+                    </div>
+
+                    <div class="checkout_button">
+                        <a href="checkout_step1.html"><button class="gotocheckout-btn">GO TO CHECKOUT</button></a>
+                    </div>
+
+                </div>
             </div>
-
-            <div class="total_amount">
-                <h3 class="basket_title">TOTAL AMOUNT</h3>
-
-                <div class="div_space">
-                    <p>SET NO. 1 </p>
-                    <p>750 DKK </p>
-                </div>
-
-                <div class="div_space">
-                    <p>Delivery </p>
-                    <p>50 DKK </p>
-                </div>
-
-                <div class="bottom_line"></div>
-
-                <div class="div_space">
-                    <p><b>Total amount</b> </p>
-                    <p><b>800 DKK</b></p>
-                </div>
-
-                <div class="checkout_button">
-                     <a href="checkout_step1.html"><button class="gotocheckout-btn">GO TO CHECKOUT</button></a>
-                </div>
-
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
 
 
-     <footer>
+    <footer>
         <div class="flex-footer">
             <img src="../resources/images/logo-white.png" class="logo-footer" alt="LogoFooter" />
             <div>
